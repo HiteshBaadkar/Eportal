@@ -87,7 +87,7 @@ public class LoginActivity extends AppCompatActivity  {
                     return;
                 }
 
-         
+                progressBar.setVisibility(View.VISIBLE);
 
                 //authenticate user
                 auth.signInWithEmailAndPassword(email, password)
